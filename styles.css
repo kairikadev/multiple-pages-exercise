@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    text-align: center;
+}
+img {
+    border-radius: 5px;
+    width:100%;
+    max-width: 500px;
+    height: auto;
+}
+.wrapper {
+    display: grid;
+
+}
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    padding:20px;
+}
+.two {
+    grid-column: 2/ 4;
+    grid-row: 1 /4;
+}
+.links {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
